@@ -1,4 +1,6 @@
-import chai from 'chai';
-import chaiImmutable from 'chai-immutable';
+'use strict';
+
+const chai = require('chai');
+const chaiImmutable = require('chai-immutable');
 
 chai.use(chaiImmutable);
