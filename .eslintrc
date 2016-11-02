@@ -33,12 +33,17 @@
   "after": false
   },
   "ecmaFeatures": {
-  "modules": true,
-  "experimentalObjectRestSpread": true,
-  "impliedStrict": true
+    "jsx": true,
+    "modules": true,
+    "experimentalObjectRestSpread": true,
+    "impliedStrict": true
   },
   "parserOptions": {
-    "sourceType": "module"
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "extends": "eslint:recommended"
 }
